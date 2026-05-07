@@ -25,6 +25,7 @@ dist/
 build/
 .tmp/
 tmp/
+.playwright-mcp*
 
 # TypeScript cache
 *.tsbuildinfo
