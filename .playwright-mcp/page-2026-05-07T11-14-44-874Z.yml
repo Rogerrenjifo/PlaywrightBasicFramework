@@ -1,0 +1,74 @@
+- generic [ref=e16]:
+  - banner [ref=e17]:
+    - generic [ref=e18]: 🍹 Cocktail Admin
+    - generic [ref=e19]:
+      - link "Ver Mercado" [ref=e20] [cursor=pointer]:
+        - /url: "#market"
+      - button "Cerrar sesión" [ref=e21] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - heading "➕ Agregar cocktail" [level=2] [ref=e24]
+      - generic [ref=e25]:
+        - generic [ref=e26]: Nombre del cocktail
+        - textbox "Nombre del cocktail" [ref=e27]:
+          - /placeholder: Ej. Mojito Clásico
+      - generic [ref=e28]:
+        - generic [ref=e29]: Descripción
+        - textbox "Descripción" [ref=e30]:
+          - /placeholder: Ej. Ron, hierbabuena y limón
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: Precio mínimo
+          - spinbutton "Precio mínimo" [ref=e34]
+        - generic [ref=e35]:
+          - generic [ref=e36]: Precio promedio
+          - spinbutton "Precio promedio" [ref=e37]
+      - button "Guardar" [ref=e39] [cursor=pointer]
+    - generic [ref=e40]:
+      - heading "Cockteles registrados" [level=2] [ref=e41]
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - generic [ref=e45]: Tequila Shot
+            - generic [ref=e46]:
+              - button "Editar" [ref=e47] [cursor=pointer]
+              - button "Eliminar" [ref=e48] [cursor=pointer]
+          - paragraph [ref=e49]: El clasico con sal y limon. Simple pero infalible.
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - text: "Mín:"
+              - strong [ref=e52]: $10.00
+            - generic [ref=e53]:
+              - text: "Prom:"
+              - strong [ref=e54]: $30.00
+          - generic [ref=e55]: "Actualizado: 5/5/2026"
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]: Jagerbomb
+            - generic [ref=e59]:
+              - button "Editar" [ref=e60] [cursor=pointer]
+              - button "Eliminar" [ref=e61] [cursor=pointer]
+          - paragraph [ref=e62]: Jagermeister con bebida energetica. Fuerte y muy popular en fiestas.
+          - generic [ref=e63]:
+            - generic [ref=e64]:
+              - text: "Mín:"
+              - strong [ref=e65]: $20.00
+            - generic [ref=e66]:
+              - text: "Prom:"
+              - strong [ref=e67]: $30.00
+          - generic [ref=e68]: "Actualizado: 5/5/2026"
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: B-52
+            - generic [ref=e72]:
+              - button "Editar" [ref=e73] [cursor=pointer]
+              - button "Eliminar" [ref=e74] [cursor=pointer]
+          - paragraph [ref=e75]: Capas de Kahlua, Baileys y Grand Marnier. Visualmente atractivo y dulce.
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - text: "Mín:"
+              - strong [ref=e78]: $25.00
+            - generic [ref=e79]:
+              - text: "Prom:"
+              - strong [ref=e80]: $40.00
+          - generic [ref=e81]: "Actualizado: 5/5/2026"

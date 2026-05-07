@@ -1,0 +1,12 @@
+- generic [ref=e70]:
+  - generic [ref=e71]: 🍹
+  - heading "Cocktail Admin" [level=1] [ref=e72]
+  - paragraph [ref=e73]: Inicia sesión para continuar
+  - generic [ref=e74]:
+    - generic [ref=e75]: Usuario
+    - textbox "Usuario" [ref=e76]: roger
+  - generic [ref=e77]:
+    - generic [ref=e78]: Contraseña
+    - textbox "Contraseña" [ref=e79]: contraseñaincorrecta
+  - paragraph [ref=e81]: Credenciales inválidas. Verifica tu usuario y contraseña.
+  - button "Iniciar sesión" [active] [ref=e80] [cursor=pointer]

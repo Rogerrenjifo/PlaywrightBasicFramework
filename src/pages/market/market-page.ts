@@ -18,6 +18,27 @@ export class MarketPage extends BasePage {
     await expect(this.marketTitle).toBeVisible();
   }
 
+    /**
+     * Alias para navigate() - navega al mercado
+     */
+    async goto(): Promise<void> {
+      await this.navigate();
+    }
+
+    /**
+     * Verifica que la página del mercado esté visible
+     */
+    async isDisplayed(): Promise<void> {
+      await this.isMarketTitleVisible();
+    }
+
+    /**
+     * Locator para el título del mercado
+     */
+    get pageTitle(): Locator {
+      return this.page.getByText('Mercado de Cockteles');
+    }
+
   async getMarketTitleText(): Promise<string> {
     return (await this.marketTitle.textContent())?.trim() ?? '';
   }
