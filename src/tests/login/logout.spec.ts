@@ -10,5 +10,7 @@ test.describe('Session Management', () => {
     await adminPage.clickLogout();
     
     await loginPage.isDisplayed();
+    const titleText = await loginPage.pageTitle.textContent();
+    await expect(titleText).toContain('Cocktail');
   });
 });

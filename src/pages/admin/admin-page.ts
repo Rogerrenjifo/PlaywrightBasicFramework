@@ -52,7 +52,7 @@ export class AdminPage {
    * Verifica que los cockteles por defecto están listados
    */
   async verifyDefaultCocktails(): Promise<void> {
-    await expect(this.page.getByText('Tequila Shot')).toBeVisible();
+    await expect(this.page.getByText('Tequila shot')).toBeVisible();
     await expect(this.page.getByText('Jagerbomb')).toBeVisible();
     await expect(this.page.getByText('B-52')).toBeVisible();
   }

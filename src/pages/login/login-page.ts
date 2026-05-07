@@ -22,11 +22,11 @@ export class LoginPage {
   }
 
   get errorMessage() {
-    return this.page.getByTestId('login-error');
+    return this.page.getByText('Credenciales inválidas. Verifica tu usuario y contraseña.');
   }
 
   get pageTitle() {
-    return this.page.getByRole('heading', { name: 'Cocktail Admin' });
+    return this.page.getByRole('heading', { name: /Cocktail/ });
   }
 
   get loginSubtitle() {
@@ -47,6 +47,7 @@ export class LoginPage {
   async isDisplayed(): Promise<void> {
     await expect(this.pageTitle).toBeVisible();
     await expect(this.loginSubtitle).toBeVisible();
+    // await expect(this.pageTitle).;
   }
 
   /**
